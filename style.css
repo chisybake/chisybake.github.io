@@ -21,6 +21,11 @@
   background-color:#f6bdc3;
 }
 
+.footer{
+  color:#FFF; 
+  background-color:#3055a9;
+}
+
 @media only screen and (max-width: 600px) {
     .whatsapp {
     position:fixed;
