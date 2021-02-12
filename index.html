@@ -49,7 +49,11 @@
 </div>-->
 	<a href="https://api.whatsapp.com/send?phone=50685714313" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 <div class="p-1 text-center fixed-bottom footer" >
-  <p class="align-middle mb-0" >Copyright © 2020 Chisy Bake. Todos los derechos reservados.</p>
+  <p class="align-middle mb-0" >Copyright © <span id="annio"></span> Chisy Bake. Todos los derechos reservados.</p>
 </div>
+<script>
+	var d = new Date();
+	document.getElementById("annio").innerHTML = d.getFullYear();
+</script>
 </body>
 </html>
