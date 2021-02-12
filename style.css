@@ -17,6 +17,22 @@
   margin-top:13px;
 }
 
-.navbar{
-  background-color:#ff6f87;
+.barra-menu{
+  background-color:#f6bdc3;
+}
+
+@media only screen and (max-width: 600px) {
+    .whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:30px;
+    right:10px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
 }
